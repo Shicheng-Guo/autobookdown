@@ -2,7 +2,12 @@
 title: "Computational Genomics Hiring at JNJ"
 author: "Shicheng Guo"
 date: "`r Sys.Date()`"
+geometry: margin=1cm
 site: bookdown::bookdown_site
+output:
+  bookdown::tufte_html_book:
+    toc: true
+    css: style.css
 ---
 
 # Down the rabbit-hole
@@ -11,4 +16,8 @@ site: bookdown::bookdown_site
 #### Spring House
 ##### North Wales
 ###### South House Atlas
+## India
+### South India
+### North India
+
 
